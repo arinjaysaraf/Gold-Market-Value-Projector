@@ -15,3 +15,4 @@
         iii. Text Recognition
         iv.  Stock Market Prediction
         v.   Image Classifier
+    10. Website via Flask-python
