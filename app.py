@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-from numpy import float64
 import utils
 
 app = Flask(__name__)
