@@ -14,10 +14,6 @@ def predict():
         High = float(request.form.get('High'))
         Low = float(request.form.get('Low'))
         Volume = float(request.form.get('Volume'))
-        print(type(Open))
-        print(type(High))
-        print(type(Low))
-        print(type(Volume))
     prediction = utils.preprocess(Open, High, Low, Volume)
     return render_template('prediction.html', prediction=prediction)
 
