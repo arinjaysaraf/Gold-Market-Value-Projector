@@ -1,1 +1,1 @@
-## gold m
+## Gold Market Predictor
